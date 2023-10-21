@@ -1,0 +1,33 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "description": "Basic node",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrl-alt-del-neo/Node-Backend.git"
+  },
+  "keywords": [
+    "node",
+    "REST",
+    "api"
+  ],
+  "author": "Gabriel Varulkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctrl-alt-del-neo/Node-Backend/issues"
+  },
+  "homepage": "https://github.com/ctrl-alt-del-neo/Node-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
